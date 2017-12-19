@@ -1,0 +1,10 @@
+//datos.js ejemplo de json
+
+var datos= [
+	
+	{"mat" : "         "},
+	{"marca": "         "},
+	{"color" : "         "},
+	{"anio" : "         "},
+	{"combustible" : "         "},
+];

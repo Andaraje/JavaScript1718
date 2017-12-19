@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabla DOM</title>
+    <script>
+        window.addEventListener("load",cargar);
+        function cargar (){
+            alert(document.body.innerHTML);
+        }
+        function borrar(t){
+            var td = t.parentNode;
+            var tr = td.parentNode;
+            var tabla = tr.parentNode;
+            tabla.removeChild(tr);
+        }
+    </script>
+</head>
+<body>
+    <table id="p1">
+        <tr>
+            <td>Fran</td>
+            <td>Vicaria</td>
+            <td><input type="button" value="borrar" onclick=borrar(this)></td>
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>Haro</td>
+            <td><input type="button" value="borrar" onclick=borrar(this)></td>
+        </tr>
+        <tr>
+            <td>Carmen</td>
+            <td>Gil</td>
+            <td><input type="button" value="borrar" onclick=borrar(this)></td>            
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+.left {
+	float: left;
+	margin: 10px 0px 10px 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+.fichas {
+	cursor: pointer;
+}
+
+body {
+	background: #8CAEBE;
+}
+
+h1 {
+	margin: 25px;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: #031B26;
+    text-shadow: 0 0 3px #1150F0;
+}
+p {
+	margin: 0 25px;
+	font-size: 20px;
+}
+
+table, tr, td {
+	border: 1px solid black;
+	border-spacing: 0;
+	border-collapse: collapse;
+	padding: 0;
+	background: rgba(0, 0, 0, 0.69);
+}
+	td {
+		width: 210px;
+		height: 210px;
+		line-height: 0px; /* Para evitar que se vea un borde blanco entre fila y fila */
+	}
+
+#muestra {
+	border: 2px solid black;
+	line-height: 0px; /* Para evitar que se vea un borde blanco inferior */
+}
+
+#reiniciar {
+	margin: 0 25px;
+	font-size: 20px;
+	cursor: pointer;
+}

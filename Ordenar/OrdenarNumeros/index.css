@@ -1,0 +1,97 @@
+#Total{
+    
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(../../../../Fotos/cabecera.jpg);
+    padding-bottom: 2%;
+}
+
+#Cabecera{
+
+    background-image: url(../../../../Fotos/cabecera.jpg);
+    height: 11%;
+    padding-top: 1%;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+#Nombre{
+
+   background-color: white;
+   width: 40%;
+   text-align: center;
+   margin-left: 30%;
+   padding: 2px;
+   border-radius: 64px 64px 64px 64px;
+
+}
+
+#PosCabecera{
+
+    background-color: white;
+    padding: 4px;
+    text-align: center;
+
+}
+
+#PosCabecera p{
+
+    font-size:18px;
+
+}
+
+#Izquierdo{
+    
+        background-color: white;
+        width: 85%;
+        margin: auto;
+        margin-top: 7%;
+        padding-bottom: 2%;
+        height: auto;
+        padding-top: 2%;
+        
+    }
+
+    #Izquierdo p{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    #Izquierdo form{
+        text-align: center;
+        margin-top: 3%;
+    }
+
+.Titulo{
+    text-align: center;
+    background-image: url(../../../../Fotos/cabecera.jpg);
+    border-radius: 64px 64px 64px 64px;
+    padding: 2%;
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.pi{
+    float: left;
+    margin-left: 18%;
+    margin-right: 9%;
+}
+
+#Pie{
+    margin-top: 7%;
+    text-align: center;
+    background-color: white;
+}
+
+h2{
+    font-weight: normal;
+}
+
+img{
+    display:block;
+    margin: auto;
+}

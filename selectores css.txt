@@ -1,0 +1,8 @@
+Selectores css
+
+hijos +		//div + p (primer hermano)
+hijos >		//solo hijos directos, si por ejemplo un p no es directo de un div, sino
+		es nieto del div, no seria seleccionado
+hermanos ~ Control+Alt gr + 4	//hermanos directos
+
+Pseudo-Clase

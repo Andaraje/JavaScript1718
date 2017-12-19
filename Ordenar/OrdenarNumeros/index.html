@@ -1,0 +1,42 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="index.css">
+            <meta charset="UTF-8"> 
+           
+    </head>
+    <body>
+
+    <script type="text/javascript" src="Funciones.js"> </script>
+
+    <div id="Total">
+
+        <div id="Cabecera">
+           <div  id="Nombre" ><h2>Carmen Gil Ruiz-Ruano</h2></div> 
+        </div>
+        <div id=PosCabecera> <p> Añadir y Ordenar Números</p></div>
+
+        <div id=Izquierdo><P class="Titulo">MENU</P>
+        
+         <p>(Escribe un número , con la cantidad de decimales que quieres y añadelo para despues ordenarlos)</p>
+         <hr/>
+
+            <form>
+                
+                Valor: <input type="text" id="NumNuevo"/>
+                Decimales: <input type="text" id="Decimales"/> 
+                <input type="button" id="Flecha" value="&darr;" onclick="Anadir()" /></br></br>
+
+                <span>Cuadro De Números</span></br>
+                <textarea id="CuadroFechas" cols="60" rows="8"></textarea> </br>
+
+                <input type="radio" name="radio" id="Creciente" checked=true />Creciente
+                <input type="radio" name="radio" id="Decreciente"   />Decreciente</br></br>
+
+                <input type="button" value="Ordenar" onclick="Ordenar()"/>
+
+                
+            </form>
+    </div>
+    <div id="Pie">2º DAW // I.E.S LAS FUENTEZUELAS</div>
+    </body>
+</html>

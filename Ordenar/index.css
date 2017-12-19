@@ -1,0 +1,79 @@
+#Total{
+    
+    height: 110%;
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(../../../Fotos/cabecera.jpg);
+}
+
+#Cabecera{
+
+    background-image: url(../../../Fotos/cabecera.jpg);
+    height: 15%;
+    padding-top: 1%;
+    position: relative;
+}
+
+#Nombre{
+
+   background-color: white;
+   width: 40%;
+   text-align: center;
+   margin-left: 30%;
+   padding: 2px;
+   border-radius: 64px 64px 64px 64px;
+
+}
+
+#PosCabecera{
+
+    background-color: white;
+    padding: 4px;
+    text-align: center;
+
+}
+
+#PosCabecera p{
+
+    font-size:18px;
+
+}
+
+#Izquierdo{
+    
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        margin-top: 7%;
+        height: 50%;
+        padding-top: 2%;
+        
+    }
+
+    #Izquierdo p{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+
+.Titulo{
+    text-align: center;
+    background-image: url(../../../Fotos/cabecera.jpg);
+    border-radius: 64px 64px 64px 64px;
+    padding: 2%;
+    width: 25%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    
+}
+
+#Pie{
+    margin-top: 7%;
+    text-align: center;
+    background-color: white;
+}
+
+h2{
+    font-weight: normal;
+}

@@ -1,0 +1,12 @@
+//navigation
+
+parentNode //padre 
+childNodes[] //vector de hijos que no tiene por que ser una etiqueta
+firstChild //primer hijo que no tiene por que ser una etiqueta
+lastChild //ultimo hijo que no tiene por que ser una etiqueta
+NextSibling //siguiente hermano
+previousSibling //hermano de antes
+
+DOM ROOT NODES
+
+document.body //recoger todo el body

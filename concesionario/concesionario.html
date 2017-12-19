@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi concesionario</title>
+    <script src="coches.js"></script>
+    <script src="concesionario.js"></script>
+    <script src="libreria.js"></script>
+</head>
+<body>
+    <form action="" id="formCompra">
+        <label>Matricula</label><input type="text" id="matricula" name="matricula"><br>
+        <label>Marca</label><input type="text" id="marca" name="marca"><br>
+        <label>Color</label><input type="text" id="color" name="color"><br>
+        <label>Año</label><input type="text" id="anio" name="anio"><br>
+        <label>Combustible</label>
+            <select name="combustible" id="combustible">
+                <option value="gasolina">Gasolina</option>
+                <option value="diesel">Diesel</option>
+                <option value="hidrogeno">Hidrógeno</option>
+            </select><br>
+        <input type="button" value="Enviar" onclick="comprarCoche()"/><br>
+        <input type="reset" value="Borrar"/>
+    </form>
+
+    <table>
+        <tbody id="listado">
+
+        </tbody>
+    </table>
+
+    <form action="" id="formVender">
+        <select name="" id="venta">
+            
+        </select>
+        <input type="button" value="Vender" onclick="venderCoche()"/>
+    </form>
+</body>
+</html>

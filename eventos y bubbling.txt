@@ -1,0 +1,15 @@
+document.getElementById("myBtn").addEventListener("click", function);
+Para añadir varios eventos a una misma accion, así donde pone function podremos poner una funcion
+y para poner otra deberemos repetir el proceso
+//bubbling y capture
+document.getElementById("myP").addEventListener("click", function()) {
+    alert("You clicked the P element!");
+}, false);
+
+document.getElementById("myDiv").addEventListener("click", function() {
+    alert("You clicked the DIV element!");
+}, false);
+el cambiar el valor de true a false se cambia el orden en el que se hace el evento
+es decir de dentro a fuera o de fuera a dentro (de esta forma el p saldria primero)
+
+
